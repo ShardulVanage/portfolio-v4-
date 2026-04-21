@@ -28,6 +28,13 @@ const uiComponents: UiComponent[] = [
     codeUrl: "https://github.com/ShardulVanage/Nuve-Hero-Vibecode",
     liveUrl: "https://nuve-hero-vibecode.vercel.app/",
   },
+  {
+    title: "Asmc News Letter ",
+    type: "Landing Page",
+    mediaUrl: "/assets/images/asmc.gif",
+    codeUrl: "https://github.com/ShardulVanage/Asmc-landing",
+    liveUrl: "https://asmc-landing.vercel.app/",
+  },
 ];
 
 export const getUiComponents = (): UiComponent[] => uiComponents;
