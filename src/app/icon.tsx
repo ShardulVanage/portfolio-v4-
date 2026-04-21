@@ -18,7 +18,7 @@ export default function Icon() {
         font-family="Outfit, Arial, sans-serif"
         font-weight="700"
       >
-        P
+        SV
       </text>
     </svg>
   `.trim();

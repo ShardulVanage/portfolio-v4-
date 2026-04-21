@@ -8,9 +8,9 @@ import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Freelance Projects | Prathmesh Sadake",
+  title: "Freelance Projects | Shardul Vanage",
   description:
-    "Detailed case studies of freelance projects built by Prathmesh Sadake - AI-powered applications, recruitment platforms, learning platforms, and more.",
+    "Detailed case studies of freelance projects built by Shardul Vanage - AI-powered applications, recruitment platforms, learning platforms, and more.",
 };
 
 const FreelancePage = () => {
