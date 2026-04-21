@@ -1,0 +1,60 @@
+
+> prathmeshsadake-v5@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.4
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1915ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.5s (1328 modules)
+ GET / 200 in 2660ms
+ ✓ Compiled in 549ms (639 modules)
+ GET / 200 in 5117ms
+ ○ Compiling /components ...
+ ✓ Compiled /icon in 3.3s (1345 modules)
+ GET /components 200 in 3510ms
+ GET /icon?1c39fc60927c5ac9 500 in 3212ms
+ GET /icon?1c39fc60927c5ac9 500 in 26ms
+ GET /icon?1c39fc60927c5ac9 500 in 31ms
+ GET /icon?1c39fc60927c5ac9 500 in 15ms
+ GET /icon?1c39fc60927c5ac9 500 in 16ms
+ ✓ Compiled /freelance in 301ms (1347 modules)
+ ✓ Compiled /_not-found in 166ms (1350 modules)
+ GET /icon?1c39fc60927c5ac9 404 in 276ms
+ GET /components 404 in 85ms
+ GET /_next/static/css/app/layout.css?v=1776760184935 404 in 58ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 66ms
+ GET /_next/static/chunks/main-app.js?v=1776760184935 404 in 66ms
+ GET /_next/static/chunks/app/layout.js 404 in 66ms
+ GET /freelance 200 in 71ms
+ GET /_next/static/css/app/layout.css?v=1776760187756 404 in 24ms
+ GET /_next/static/chunks/main-app.js?v=1776760187756 404 in 39ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 40ms
+ GET /_next/static/chunks/app/layout.js 404 in 40ms
+ ✓ Compiled /blog in 325ms (1354 modules)
+ GET /blog 200 in 529ms
+ GET /_next/static/css/app/layout.css?v=1776760190349 404 in 191ms
+ GET /_next/static/chunks/main-app.js?v=1776760190349 404 in 213ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 225ms
+ GET /_next/static/chunks/app/layout.js 404 in 211ms
+ GET /blog 200 in 52ms
+ GET /_next/static/css/app/layout.css?v=1776760192517 404 in 50ms
+ GET /_next/static/chunks/main-app.js?v=1776760192517 404 in 66ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 68ms
+ GET /_next/static/chunks/app/layout.js 404 in 67ms
+ ✓ Compiled /favicon.ico in 229ms (727 modules)
+ GET /favicon.ico 200 in 274ms
+ GET /blog 200 in 74ms
+ GET /_next/static/css/app/layout.css?v=1776760194976 404 in 65ms
+ GET /_next/static/chunks/main-app.js?v=1776760194976 404 in 66ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 67ms
+ GET /_next/static/chunks/app/layout.js 404 in 68ms
+ GET /favicon.ico 200 in 12ms
+ GET / 404 in 71ms
+ GET /_next/static/css/app/layout.css?v=1776760198453 404 in 37ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 40ms
+ GET /_next/static/chunks/main-app.js?v=1776760198453 404 in 41ms
+ GET /_next/static/chunks/app/layout.js 404 in 40ms
+ ✓ Compiled in 954ms (1365 modules)

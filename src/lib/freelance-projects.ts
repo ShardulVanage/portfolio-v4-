@@ -13,43 +13,156 @@ export interface FreelanceProject {
 
 export const getFreelanceProjects = function (): FreelanceProject[] {
   return [
-    {
-      title: "Hirrings",
-      shortDescription: "AI-Powered Recruitment Platform",
+      {
+      title: "Start Secure",
+      shortDescription: "Cybersecurity & Penetration Testing Dashboard",
       fullDescription:
-        "Hirrings is an AI-driven hiring platform that helps companies match candidates to open roles and manage their hiring pipeline at scale. I built the platform end-to-end, from frontend UX to backend workflow automation and integrations.",
+        "Start Secure is a cybersecurity platform offering penetration testing and security assessment services for modern applications. I built a comprehensive client dashboard that allows businesses to seamlessly onboard, track security assessments, and access detailed vulnerability reports in real time.",
       techStack: [
         "Next.js",
         "React",
         "TypeScript",
         "Node.js",
         "PostgreSQL",
-        "OpenAI API",
         "Tailwind CSS",
+        "REST APIs",
       ],
-      link: "https://hirrings.com",
-      linkDisplay: "hirrings.com",
+      link: "https://startsecure.in",
+      linkDisplay: "startsecure.in",
       role: "Full-Stack Developer",
       responsibilities: [
-        "Led full-stack development of the marketing site and core product experience, starting from a blank repo.",
-        "Designed and implemented the data models for jobs, candidates, applications, and AI matches.",
-        "Integrated AI services to power intelligent candidate–job matching and skill analysis.",
-        "Built automated application tracking flows so recruiters can receive pre-screened applicants directly in their inbox.",
-        "Implemented responsive, SEO-friendly pages for employer branding and candidate acquisition.",
+        "Designed and developed a secure client dashboard from scratch for managing cybersecurity workflows.",
+        "Built onboarding flows enabling clients to submit applications for penetration testing and security audits.",
+        "Implemented real-time status tracking for security assessments, including stages like submission, testing, and reporting.",
+        "Developed structured reporting modules to display vulnerabilities, risk levels, and remediation suggestions.",
+        "Integrated backend APIs for handling client data, test results, and report generation securely.",
+        "Ensured responsive UI/UX with a focus on clarity for complex security data and reports.",
       ],
       features: [
-        "AI-powered candidate matching that ranks and recommends the best-fit applicants for each role based on skills, experience, and preferences.",
-        "Intelligent skill analysis that evaluates applicant profiles and surfaces the most relevant capabilities for a given JD.",
-        "Automated application tracking with dashboards and email workflows to streamline screening and follow-ups.",
-        "Free job posting flow where employers can publish roles and receive candidates without manual intervention.",
-        "High-conversion landing pages showcasing 500K+ openings, 128+ active MNC jobs, and trusted employers.",
+        "Client onboarding system allowing businesses to submit applications for penetration testing and security services.",
+        "Live application status tracking with clear stages (Pending, In Progress, Completed, Report Generated).",
+        "Detailed security reports showcasing vulnerabilities categorized by severity (Critical, High, Medium, Low).",
+        "Actionable remediation insights to help clients fix identified security issues efficiently.",
+        "Centralized dashboard for managing multiple applications and viewing historical reports.",
+        "Secure data handling and authentication to ensure confidentiality of sensitive security findings.",
       ],
       impact: [
-        "Enabled Hirrings to position itself as an AI hiring copilot for both candidates and recruiters, not just another job board.",
-        "Reduced manual screening time for HR teams by automating matching, skill analysis, and tracking updates.",
+        "Enabled Start Secure to provide a transparent and professional client experience for cybersecurity services.",
+        "Reduced manual communication overhead by centralizing application tracking and reporting in one dashboard.",
+        "Improved client trust through clear, structured, and accessible vulnerability reporting.",
       ],
     },
-    {
+ 
+      {
+      title: "ActiveDelights",
+      shortDescription: "Shopify Experience & Branding for Shake n' Oats",
+      fullDescription:
+        "ActiveDelights is a nutrition-focused brand offering 'Shake n' Oats' — a convenient oats-based protein milkshake designed for healthy, on-the-go lifestyles. I worked on building a custom Shopify experience that highlights the product’s benefits, improves conversions, and creates a strong visual identity across digital and offline touchpoints.",
+      techStack: [
+        "Shopify (Liquid)",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canva",
+      ],
+      link: "https://activedelights.in/",
+      linkDisplay: "activedelights.in",
+      role: "Frontend Developer & Creative Designer",
+      responsibilities: [
+        "Customized the Shopify theme using Liquid, HTML, CSS, and JavaScript to create a unique, conversion-focused storefront.",
+        "Designed product-centric UI sections to effectively showcase Shake n' Oats and its nutritional value.",
+        "Optimized layout and user flow for better product discovery and purchase experience.",
+        "Created high-quality marketing assets including posters and banners for exhibitions and brand promotions.",
+        "Collaborated on visual branding to ensure consistency across website and offline materials.",
+      ],
+      features: [
+        "Custom-designed product pages highlighting benefits like high protein, convenience, and healthy lifestyle positioning.",
+        "Engaging landing sections with strong visuals and clear messaging to improve conversions.",
+        "Mobile-first responsive design ensuring smooth experience across devices.",
+        "Visually appealing banners and promotional creatives for exhibitions and marketing campaigns.",
+        "Brand-aligned UI/UX that communicates energy, health, and modern nutrition.",
+      ],
+      impact: [
+        "Enhanced the brand’s online presence with a modern, product-focused Shopify experience.",
+        "Improved user engagement and conversion through better visual storytelling and UX.",
+        "Strengthened brand identity across both digital platform and offline exhibitions.",
+      ],
+    },
+   {
+  title: "Kulture Canada",
+  shortDescription: "UI/UX Design for Premium Hair Care Brand",
+  fullDescription:
+    "Kulture Canada is a modern hair care brand built around authenticity, inclusivity, and transparency. I designed a complete UI/UX experience in Figma that reflects the brand’s philosophy — celebrating diverse hair types while creating a premium, trustworthy digital presence. The design focuses on storytelling, clean aesthetics, and product clarity to enhance user engagement and brand connection.",
+  techStack: [
+    "Figma",
+    "UI/UX Design",
+    "Design Systems",
+    "Prototyping",
+    "Wireframing",
+  ],
+  link: "https://kulturecanada.com/",
+  linkDisplay: "kulturecanada.com",
+  role: "UI/UX Designer",
+  responsibilities: [
+    "Designed end-to-end website UI/UX in Figma, from wireframes to high-fidelity prototypes.",
+    "Created a design system including typography, color palette, spacing, and reusable components.",
+    "Translated brand values like inclusivity, transparency, and premium care into visual design language.",
+    "Designed product pages that clearly communicate ingredients, benefits, and usage.",
+    "Focused on user journeys for product discovery, trust-building, and conversion.",
+  ],
+  features: [
+    "Clean, modern interface reflecting a premium hair care brand identity.",
+    "Story-driven homepage showcasing brand philosophy and emotional connection with users.",
+    "Product-focused layouts highlighting ingredients, benefits, and transparency.",
+    "Inclusive design approach representing diverse hair types and user personas.",
+    "Mobile-first responsive design ensuring seamless experience across devices.",
+    "Interactive prototypes in Figma to visualize user flow and interactions.",
+  ],
+  impact: [
+    "Created a strong digital identity aligned with Kulture’s brand narrative and values.",
+    "Improved user engagement through intuitive navigation and storytelling-driven design.",
+    "Enhanced product trust by clearly presenting ingredients and benefits visually.",
+  ],
+},
+  
+  {
+  title: "BakeHaven",
+  shortDescription: "WordPress Storefront & UI Revamp for Baking Essentials Brand",
+  fullDescription:
+    "BakeHaven Confectioneries LLP is a Mumbai-based brand providing premium baking ingredients and essentials across India. I worked on enhancing their WordPress-powered website by implementing custom code, improving UI/UX, and creating mockup product visuals to better showcase their offerings and brand identity.",
+  techStack: [
+    "WordPress",
+    "PHP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Canva",
+  ],
+  link: "https://bakehavenonline.com/",
+  linkDisplay: "bakehavenonline.com",
+  role: "Frontend Developer & UI Designer",
+  responsibilities: [
+    "Customized the WordPress website using PHP, HTML, CSS, and JavaScript to enhance functionality and design.",
+    "Improved overall UI/UX to create a cleaner, more modern, and user-friendly shopping experience.",
+    "Designed and implemented custom sections to better highlight baking products and categories.",
+    "Created mockup product visuals to present items in a more appealing and professional way.",
+    "Optimized layout and responsiveness for seamless browsing across devices.",
+  ],
+  features: [
+    "Modernized website interface aligned with BakeHaven’s premium and creative brand identity.",
+    "Custom product showcase sections to highlight baking essentials and ingredients effectively.",
+    "Improved navigation and layout for easier product discovery and better user flow.",
+    "High-quality mockup visuals enhancing product presentation and perceived value.",
+    "Responsive design ensuring consistent experience across mobile, tablet, and desktop.",
+  ],
+  impact: [
+    "Elevated BakeHaven’s digital presence with a more polished and professional storefront.",
+    "Improved user engagement through better UI/UX and visually enhanced product displays.",
+    "Strengthened brand perception as a premium baking essentials provider in India.",
+  ],
+},
+
+       {
       title: "ZEP Resume",
       shortDescription: "AI Job Application Copilot",
       fullDescription:
@@ -82,156 +195,6 @@ export const getFreelanceProjects = function (): FreelanceProject[] {
       impact: [
         "Helped ZEP position itself as a 'one-stop' AI copilot for job applications, from resume to interview prep.",
         "Improved user success and retention by surfacing clear scores, progress, and targeted recommendations.",
-      ],
-    },
-    {
-      title: "FindU",
-      shortDescription: "AI Medical Interview Prep Platform",
-      fullDescription:
-        "FindU is an AI-powered platform that helps future healthcare professionals ace medical school and specialty interviews using realistic simulations and feedback. I led the end-to-end implementation of the product experience.",
-      techStack: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "OpenAI API",
-        "AWS",
-      ],
-      link: "https://findu.io",
-      linkDisplay: "findu.io",
-      role: "Full-Stack Developer",
-      responsibilities: [
-        "Built the core interview simulator UI and user dashboard for students to schedule and review AI interviews.",
-        "Implemented flows for AI mock interviews, resume analysis, numeracy tests, and progress tracking.",
-        "Set up token-based usage and plan logic (free and premium) to support both individual users and institutions.",
-      ],
-      features: [
-        "AI interview simulator supporting multiple formats (MMI, panel, etc.) with specialty-specific questions and scenarios.",
-        "Real-time analysis of performance with metrics on communication, confidence, and interview structure.",
-        "Instant feedback loops that provide detailed, actionable suggestions after each session.",
-        "Progress tracking dashboards so students can monitor improvement over time and identify weak areas.",
-        "Onboarding and pricing flows including free tokens, upgrade via organization coupon, and premium feature unlocks.",
-      ],
-      impact: [
-        "Enabled thousands of healthcare applicants to access realistic interview practice 24/7 with measurable performance gains.",
-        "Helped institutions offer scalable, AI-driven coaching without adding internal interview coaches.",
-      ],
-    },
-    {
-      title: "Talkerz",
-      shortDescription: "AI English Speaking & Reading Coach",
-      fullDescription:
-        "Talkerz is an AI-powered learning platform that combines reading comprehension with real-time speaking practice to improve English skills. I developed the full web experience and integrated the AI voice and analytics stack.",
-      techStack: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "Speech APIs",
-        "OpenAI API",
-        "Firebase",
-      ],
-      link: "https://www.talkerz.net",
-      linkDisplay: "talkerz.net",
-      role: "Full-Stack Developer",
-      responsibilities: [
-        "Implemented the three-step learning flow: choose passage, read and understand, then start AI voice interview.",
-        "Integrated AI speech and NLP services to evaluate fluency, pronunciation, grammar, and vocabulary.",
-        "Built analytics dashboards and progress reports for learners, accessible across devices.",
-        "Ensured a mobile-responsive, low-latency UI so learners can practice on the go.",
-      ],
-      features: [
-        "Interactive reading library with diverse passages across technology, health, and other domains.",
-        "AI interviewer that conducts voice conversations, adapts to the learner's level, and asks comprehension-focused questions.",
-        "Real-time feedback on speech, including fluency scores, pronunciation hints, and grammar suggestions.",
-        "Detailed analytics and progress tracking so users can see improvements over time and target weak skills.",
-        "Multi-device, responsive experience with no-credit-card onboarding for frictionless adoption.",
-      ],
-      impact: [
-        "Helped Talkerz grow to 10K+ active learners, 100K+ completed AI interviews, and a 4.9 average rating.",
-        "Significantly improved users' speaking confidence and pronunciation through continuous, AI-driven feedback.",
-      ],
-    },
-    {
-      title: "Jag My Chef",
-      shortDescription: "Online Culinary Service Platform",
-      fullDescription:
-        "Jag My Chef is a digital platform that connects users with culinary services (such as personal chefs, curated menus, or food experiences) through a modern web presence. I handled the full implementation of the marketing and booking experience.",
-      techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js"],
-      link: "https://jagmychef.com",
-      linkDisplay: "jagmychef.com",
-      role: "Full-Stack Developer",
-      responsibilities: [
-        "Built a high-conversion, responsive marketing website to showcase services and brand story.",
-        "Implemented booking/contact flows for leads to request services and packages.",
-        "Optimized performance and SEO for local and global discoverability.",
-      ],
-      features: [
-        "Clear, visual presentation of chef services, offerings, and differentiators.",
-        "Simple inquiry/booking journey to reduce friction from discovery to lead capture.",
-        "Mobile-first layout suited for users browsing on phones and tablets.",
-      ],
-      impact: [
-        "Helped the brand translate an offline culinary offering into a credible online presence.",
-        "Increased inbound leads by making it easy for visitors to understand services and get in touch.",
-      ],
-    },
-    {
-      title: "BayGuard Fire Protection",
-      shortDescription: "Safety Services Website",
-      fullDescription:
-        "BayGuard Fire Protection is a fire protection and safety services company that needed a professional web presence to build trust and generate leads. I developed the entire site from scratch, focusing on clarity, compliance, and conversions.",
-      techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js"],
-      link: "https://bayguardfire.com",
-      linkDisplay: "bayguardfire.com",
-      role: "Full-Stack Developer",
-      responsibilities: [
-        "Designed and implemented the frontend with a clear information hierarchy around services, certifications, and contact.",
-        "Built forms and contact flows for quote requests, inspections, and support.",
-        "Ensured performance, accessibility, and responsive design best practices.",
-      ],
-      features: [
-        "Service pages clearly describing fire protection solutions, inspections, and maintenance offerings.",
-        "Prominent trust signals (certifications, experience, testimonials) to reassure commercial customers.",
-        "Simple inquiry and quote request forms with routing to the right internal team.",
-      ],
-      impact: [
-        "Provided BayGuard with a credible online presence in a trust-sensitive, regulated industry.",
-        "Improved the company's ability to capture and qualify inbound leads through the website.",
-      ],
-    },
-    {
-      title: "Unrot",
-      shortDescription: "React Native Micro-Learning App (Gen-AI)",
-      fullDescription:
-        "Unrot is a mobile micro-learning app built with React Native that delivers short, AI-generated learning content and personalized practice sessions. I owned the full mobile engineering for the app.",
-      techStack: [
-        "React Native",
-        "TypeScript",
-        "Expo",
-        "Node.js",
-        "OpenAI API",
-        "Firebase",
-      ],
-      link: "",
-      linkDisplay: "Mobile App",
-      role: "Mobile Developer",
-      responsibilities: [
-        "Architected and built the React Native app for both iOS and Android from scratch.",
-        "Integrated Gen-AI APIs to generate bite-sized lessons, questions, and explanations on demand.",
-        "Implemented state management, navigation, and offline-friendly caching layers.",
-        "Set up analytics and event tracking for user engagement and retention.",
-      ],
-      features: [
-        "Micro-learning feed with short, focused lessons that users can complete in a few minutes.",
-        "AI-generated quizzes and explanations tailored to user level and previous performance.",
-        "Streaks, progress tracking, and reminder notifications to encourage daily learning.",
-        "Smooth, native-feeling UI and animations optimized for low-end and mid-range devices.",
-      ],
-      impact: [
-        "Turned abstract Gen-AI capabilities into a concrete, engaging learning experience on mobile.",
-        "Enabled the client to rapidly test and iterate on new learning formats with minimal engineering overhead.",
       ],
     },
   ];

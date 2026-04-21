@@ -22,6 +22,12 @@ export const getPathMap = function (): PathMapProps[] {
     },
     {
       pathType: "internal",
+      title: "VibeCode",
+      link: "/components",
+      isAvailable: true,
+    },
+    {
+      pathType: "internal",
       title: "blog",
       link: "/blog",
       isAvailable: true,

@@ -13,11 +13,11 @@ const Header: React.FunctionComponent = () => {
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
         <Image
-          src={"/assets/images/profile.jpeg"}
+          src={"/pp.jpg"}
           alt='prathmesh-profile'
           width={"80"}
           height={"80"}
-          className='rounded-full transition-all hover:grayscale'
+          className='rounded-full transition-all contain-fill scale-110 hover:grayscale'
           priority
         />
         <motion.div
@@ -30,11 +30,11 @@ const Header: React.FunctionComponent = () => {
       </motion.div>
       <div>
         <h1 className='welcome-text leading-snug font-semibold text-2xl text-zinc-900'>
-          {"👋 Hi, I am Prathmesh"}
+          {"👋 Hi, I am Shardul"}
         </h1>
         <div className='leading-snug font-normal text-base text-zinc-500 mt-2'>
-          <p>{"A full-stack software engineer, from India."}</p>
-          <p>{new Date().getFullYear() - 2001 + ", he/him"}</p>
+          <p>{"A frontend  engineer, from India."}</p>
+          <p>{new Date().getFullYear() - 2002 + ", he/him"}</p>
         </div>
       </div>
     </Section>

@@ -11,22 +11,22 @@ export const getContacts = function (): ContactItemProps[] {
     {
       title: "GitHub",
       link: {
-        display: "@prathmeshsadake",
-        url: "https://github.com/PrathmeshSadake",
+        display: "@ShardulVanage",
+        url: "https://github.com/ShardulVanage",
       },
     },
     {
       title: "LinkedIn",
       link: {
-        display: "linkedin.com/in/prathmeshsadake",
-        url: "https://linkedin.com/in/prathmeshsadake",
+        display: "linkedin.com/in/ShardulVanage",
+        url: "https://www.linkedin.com/in/shardul-vanage-294823200/",
       },
     },
     {
       title: "Twitter / X.com",
       link: {
-        display: "x.com/prathmeshsadake",
-        url: "https://x.com/prathmeshsadake",
+        display: "x.com/shardulvanage",
+        url: "https://x.com/ShardulVan35985",
       },
     },
   ];

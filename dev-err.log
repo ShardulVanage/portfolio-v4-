@@ -1,0 +1,140 @@
+ ⨯ Error: failed to pipe response
+    at pipeToNodeResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\pipe-readable.js:126:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async sendResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\send-response.js:40:13)
+    at async doRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1407:25)
+    at async cacheEntry.responseCache.get.routeKind (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1587:40)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1507:28)
+    at async DevServer.renderPageComponent (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1969:32)
+    at async DevServer.pipeImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:174:21) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:828:25)
+      at fileURLToPath (node:internal/url:1609:12)
+      at file:///C:/Users/vshar/shardul-portfolio/node_modules/next/dist/compiled/@vercel/og/index.node.js:18984:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+      at async Object.start (webpack-internal:///(app-metadata-route)/./node_modules/next/dist/server/og/image-response.js:21:18) {
+    code: 'ERR_INVALID_URL',
+    input: '.\\file:\\C:\\Users\\vshar\\shardul-portfolio\\node_modules\\next\\dist\\compiled\\@vercel\\og\\noto-sans-v27-latin-regular.ttf'
+  }
+}
+ ⨯ Error: failed to pipe response
+    at pipeToNodeResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\pipe-readable.js:126:15)
+    at async sendResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\send-response.js:40:13)
+    at async doRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1407:25)
+    at async cacheEntry.responseCache.get.routeKind (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1587:40)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1507:28)
+    at async DevServer.renderPageComponent (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1969:32)
+    at async DevServer.pipeImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:353:24) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:828:25)
+      at fileURLToPath (node:internal/url:1609:12)
+      at file:///C:/Users/vshar/shardul-portfolio/node_modules/next/dist/compiled/@vercel/og/index.node.js:18984:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+      at async Object.start (webpack-internal:///(app-metadata-route)/./node_modules/next/dist/server/og/image-response.js:21:18) {
+    code: 'ERR_INVALID_URL',
+    input: '.\\file:\\C:\\Users\\vshar\\shardul-portfolio\\node_modules\\next\\dist\\compiled\\@vercel\\og\\noto-sans-v27-latin-regular.ttf'
+  }
+}
+ ⨯ Error: failed to pipe response
+    at pipeToNodeResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\pipe-readable.js:126:15)
+    at async sendResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\send-response.js:40:13)
+    at async doRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1407:25)
+    at async cacheEntry.responseCache.get.routeKind (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1587:40)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1507:28)
+    at async DevServer.renderPageComponent (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1969:32)
+    at async DevServer.pipeImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:353:24) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:828:25)
+      at fileURLToPath (node:internal/url:1609:12)
+      at file:///C:/Users/vshar/shardul-portfolio/node_modules/next/dist/compiled/@vercel/og/index.node.js:18984:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+      at async Object.start (webpack-internal:///(app-metadata-route)/./node_modules/next/dist/server/og/image-response.js:21:18) {
+    code: 'ERR_INVALID_URL',
+    input: '.\\file:\\C:\\Users\\vshar\\shardul-portfolio\\node_modules\\next\\dist\\compiled\\@vercel\\og\\noto-sans-v27-latin-regular.ttf'
+  }
+}
+ ⨯ Error: failed to pipe response
+    at pipeToNodeResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\pipe-readable.js:126:15)
+    at async sendResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\send-response.js:40:13)
+    at async doRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1407:25)
+    at async cacheEntry.responseCache.get.routeKind (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1587:40)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1507:28)
+    at async DevServer.renderPageComponent (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1969:32)
+    at async DevServer.pipeImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:353:24) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:828:25)
+      at fileURLToPath (node:internal/url:1609:12)
+      at file:///C:/Users/vshar/shardul-portfolio/node_modules/next/dist/compiled/@vercel/og/index.node.js:18984:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+      at async Object.start (webpack-internal:///(app-metadata-route)/./node_modules/next/dist/server/og/image-response.js:21:18) {
+    code: 'ERR_INVALID_URL',
+    input: '.\\file:\\C:\\Users\\vshar\\shardul-portfolio\\node_modules\\next\\dist\\compiled\\@vercel\\og\\noto-sans-v27-latin-regular.ttf'
+  }
+}
+ ⨯ Error: failed to pipe response
+    at pipeToNodeResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\pipe-readable.js:126:15)
+    at async sendResponse (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\send-response.js:40:13)
+    at async doRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1407:25)
+    at async cacheEntry.responseCache.get.routeKind (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1587:40)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1507:28)
+    at async DevServer.renderPageComponent (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:1969:32)
+    at async DevServer.pipeImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\vshar\shardul-portfolio\node_modules\next\dist\server\lib\router-server.js:353:24) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:828:25)
+      at fileURLToPath (node:internal/url:1609:12)
+      at file:///C:/Users/vshar/shardul-portfolio/node_modules/next/dist/compiled/@vercel/og/index.node.js:18984:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+      at async Object.start (webpack-internal:///(app-metadata-route)/./node_modules/next/dist/server/og/image-response.js:21:18) {
+    code: 'ERR_INVALID_URL',
+    input: '.\\file:\\C:\\Users\\vshar\\shardul-portfolio\\node_modules\\next\\dist\\compiled\\@vercel\\og\\noto-sans-v27-latin-regular.ttf'
+  }
+}

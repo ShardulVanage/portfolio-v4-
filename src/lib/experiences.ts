@@ -16,54 +16,54 @@ interface ExperienceItemProps extends React.HTMLAttributes<HTMLDivElement> {
 export const getExperiences = function (): ExperienceItemProps[] {
   return [
     {
-      experienceTitle: "Software Engineer 1 (Generative AI Applications)",
+      experienceTitle: "Frontend Engineer  (UI, UX, performance)",
       experienceDescription: [
-        "Developing and deploying Generative AI applications leveraging OpenRouter API and LLMs including GPT, Claude, Mistral, LLaMA, and Gemini.",
-        "Building custom AI pipelines for text generation, summarization, code assistance, image generation, and chatbot interfaces.",
-        "Maintained backend services using PostgreSQL, Supabase, and Vector Databases for efficient data storage and retrieval.",
-        "Collaborating with cross-functional teams to design, develop, and deploy web applications using Next.js and TypeScript.",
-        "Mentoring junior developers and facilitating their growth and development within the team.",
-      ],
-      experienceOrg: {
-        name: "Build Fast with AI",
-        link: "https://buildfastwithai.com",
-        websiteDisplayName: "buildfastwithai.com",
+       "Led frontend development for AI-powered web applications, delivering intuitive, high-performance user interfaces using Next.js and TypeScript.",
+      "Designed and implemented seamless user experiences for features like AI chat, content generation, and dynamic dashboards with a focus on usability and interaction design.",
+      "Built and optimized scalable frontend architectures with React, Tailwind CSS, and modern design patterns, improving performance and maintainability.",
+      "Collaborated closely with  teams to translate complex requirements into clean, user-centric interfaces.", 
+       ],
+          experienceOrg: {
+        name: "Zep Research",
+        link: "https://zepresearch.com",
+        websiteDisplayName: "zepresearch.com",
       },
       experienceStatus: "current",
     },
+    // {
+    //   experienceTitle: "Software Development Intern",
+    //   experienceDescription: [
+    //     "Designed and managed the database schema, created tables, defined relationships between data, and implemented CRUD operations for the application's data.",
+    //     "Designed and developed a custom authentication system using Supabase, enhancing security and user management capabilities.",
+    //   ],
+    //   experienceOrg: {
+    //     name: "Build Fast with AI",
+    //   },
+    //   experienceStatus: {
+    //     startAt: "Aug 2023",
+    //     endAt: "Jan 2024",
+    //   },
+    // },
     {
-      experienceTitle: "Software Development Intern",
+      experienceTitle: "Web Development Intern",
       experienceDescription: [
-        "Designed and managed the database schema, created tables, defined relationships between data, and implemented CRUD operations for the application's data.",
-        "Designed and developed a custom authentication system using Supabase, enhancing security and user management capabilities.",
-      ],
-      experienceOrg: {
-        name: "Build Fast with AI",
-      },
-      experienceStatus: {
-        startAt: "Aug 2023",
-        endAt: "Jan 2024",
-      },
-    },
-    {
-      experienceTitle: "Software Development Intern",
-      experienceDescription: [
+        "Collaborated on testing and contributed to the AI-powered ZepResume platform at Zep Analytics, and created Flask templates for a Python-based chatbot.",
         "Implemented RESTful APIs for communication between the client and server.",
         "Implemented user authentication and authorization systems using Firebase, including features like user registration, login, password reset, and role-based access control.",
         "Participated in code reviews to maintain code quality and learn from more experienced developers on the team.",
       ],
       experienceOrg: {
-        name: "Bharat One Care",
+        name: "Zep Analytics ",
         // link: "https://bharatonecare.com",
         // websiteDisplayName: "bharatonecare.com",
       },
       experienceStatus: {
-        startAt: "Oct 2023",
-        endAt: "Dec 2023",
+        startAt: "Jan 2023 ",
+        endAt: " Jul 2025 ",
       },
     },
     {
-      experienceTitle: "Product Engineer",
+      experienceTitle: "Web Developer Intern",
       experienceDescription: [
         "Developed and maintained responsive web applications using React.js and Next.js, providing a smooth user experience.",
         "Leveraged Git for version control, ensuring seamless collaboration within development teams.",
@@ -75,8 +75,8 @@ export const getExperiences = function (): ExperienceItemProps[] {
         // websiteDisplayName: "ensembleinc.com",
       },
       experienceStatus: {
-        startAt: "Nov 2022",
-        endAt: "Oct 2023",
+        startAt: "Nov 2022 ",
+        endAt: " Dec 2022 ",
       },
     },
     {
@@ -91,44 +91,44 @@ export const getExperiences = function (): ExperienceItemProps[] {
         // websiteDisplayName: "tcsion.com",
       },
       experienceStatus: {
-        startAt: "Jun 2022",
-        endAt: "Jul 2022",
+        startAt: " Jun 2022 ",
+        endAt: " Jul 2022 ",
       },
     },
-    {
-      experienceTitle: "MERN Stack Developer",
-      experienceDescription: [
-        "Responsible for writing reusable, testable, and efficient code.",
-        "Worked with ReactJS, Node.js, Express.js, and Firebase authentication.",
-        "Translated UI/UX design wireframes into high-quality code that produced visual elements of the application.",
-      ],
-      experienceOrg: {
-        name: "Docsup Private Limited",
-        // link: "https://docsup.com",
-        // websiteDisplayName: "docsup.com",
-      },
-      experienceStatus: {
-        startAt: "Jan 2022",
-        endAt: "Feb 2022",
-      },
-    },
-    {
-      experienceTitle: "Web Software Developer",
-      experienceDescription: [
-        "Worked on the UI/UX design enhancing user journey and creative elements.",
-        "Assisted with writing content for the descriptive elements of the website.",
-        "Improved existing UI of Web Applications.",
-        "Implemented Form validation using Javascript and jQuery.",
-      ],
-      experienceOrg: {
-        name: "Arca Innovation",
-        // link: "https://arcainnovation.com",
-        // websiteDisplayName: "arcainnovation.com",
-      },
-      experienceStatus: {
-        startAt: "Mar 2021",
-        endAt: "Apr 2021",
-      },
-    },
+    // {
+    //   experienceTitle: "MERN Stack Developer",
+    //   experienceDescription: [
+    //     "Responsible for writing reusable, testable, and efficient code.",
+    //     "Worked with ReactJS, Node.js, Express.js, and Firebase authentication.",
+    //     "Translated UI/UX design wireframes into high-quality code that produced visual elements of the application.",
+    //   ],
+    //   experienceOrg: {
+    //     name: "Docsup Private Limited",
+    //     // link: "https://docsup.com",
+    //     // websiteDisplayName: "docsup.com",
+    //   },
+    //   experienceStatus: {
+    //     startAt: "Jan 2022",
+    //     endAt: "Feb 2022",
+    //   },
+    // },
+    // {
+    //   experienceTitle: "Web Software Developer",
+    //   experienceDescription: [
+    //     "Worked on the UI/UX design enhancing user journey and creative elements.",
+    //     "Assisted with writing content for the descriptive elements of the website.",
+    //     "Improved existing UI of Web Applications.",
+    //     "Implemented Form validation using Javascript and jQuery.",
+    //   ],
+    //   experienceOrg: {
+    //     name: "Arca Innovation",
+    //     // link: "https://arcainnovation.com",
+    //     // websiteDisplayName: "arcainnovation.com",
+    //   },
+    //   experienceStatus: {
+    //     startAt: "Mar 2021",
+    //     endAt: "Apr 2021",
+    //   },
+    // },
   ];
 };

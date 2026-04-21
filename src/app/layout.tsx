@@ -10,7 +10,7 @@ import ViewContainer from "@/components/view-container";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prathmesh Sadake",
+  title: "Shardul Vanage | Frontend Engineer",
   description:
     "Full Stack Software Engineer specializing in Generative AI applications. Building cutting-edge AI-powered web applications with Next.js, React, TypeScript, and modern cloud technologies.",
 };
