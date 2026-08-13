@@ -29,5 +29,12 @@ export const getContacts = function (): ContactItemProps[] {
         url: "https://x.com/ShardulVan35985",
       },
     },
+    {
+      title: "Gmail",
+      link: {
+        display: "vsharadul@gmail.com",
+        url: "mailto:vsharadul@gmail.com",
+      }
+    }
   ];
 };

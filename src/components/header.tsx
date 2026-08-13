@@ -13,10 +13,10 @@ const Header: React.FunctionComponent = () => {
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
         <Image
-          src={"/pp.jpg"}
+          src={"/pp2.jpg"}
           alt='prathmesh-profile'
-          width={"80"}
-          height={"80"}
+          width={"200"}
+          height={"100"}
           className='rounded-full transition-all contain-fill scale-110 hover:grayscale'
           priority
         />
@@ -28,14 +28,21 @@ const Header: React.FunctionComponent = () => {
           {"✨"}
         </motion.div>
       </motion.div>
-      <div>
-        <h1 className='welcome-text leading-snug font-semibold text-2xl text-zinc-900'>
-          {"👋 Hi, I am Shardul"}
+      <div className='ml-4'>
+        <h1 className=' welcome-text leading-snug font-semibold text-2xl text-zinc-900'>
+          {" Hi, I am Shardul"}
         </h1>
         <div className='leading-snug font-normal text-base text-zinc-500 mt-2'>
           <p>{"A frontend  engineer, from India."}</p>
           <p>{new Date().getFullYear() - 2002 + ", he/him"}</p>
         </div>
+        <a
+          href='/Shardul_resume_2026.pdf'
+          download
+          className='mt-3 inline-flex items-center rounded-md border border-zinc-200 bg-white/50 drop-shadow-sm px-3.5 py-2 text-xs font-medium text-zinc-800 transition-all duration-200 hover:border-zinc-300 hover:bg-zinc-50 active:scale-[0.98]'
+        >
+          Download resume
+        </a>
       </div>
     </Section>
   );

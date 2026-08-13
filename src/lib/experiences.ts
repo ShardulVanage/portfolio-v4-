@@ -18,7 +18,7 @@ export const getExperiences = function (): ExperienceItemProps[] {
     {
       experienceTitle: "Frontend Engineer  (UI, UX, performance)",
       experienceDescription: [
-       "Led frontend development for AI-powered web applications, delivering intuitive, high-performance user interfaces using Next.js and TypeScript.",
+       "Led frontend development for Conference web applications, delivering intuitive, high-performance user interfaces using Next.js and TypeScript.",
       "Designed and implemented seamless user experiences for features like AI chat, content generation, and dynamic dashboards with a focus on usability and interaction design.",
       "Built and optimized scalable frontend architectures with React, Tailwind CSS, and modern design patterns, improving performance and maintainability.",
       "Collaborated closely with  teams to translate complex requirements into clean, user-centric interfaces.", 
