@@ -13,45 +13,7 @@ export interface FreelanceProject {
 
 export const getFreelanceProjects = function (): FreelanceProject[] {
   return [
-      {
-      title: "Start Secure",
-      shortDescription: "Cybersecurity & Penetration Testing Dashboard",
-      fullDescription:
-        "Start Secure is a cybersecurity platform offering penetration testing and security assessment services for modern applications. I built a comprehensive client dashboard that allows businesses to seamlessly onboard, track security assessments, and access detailed vulnerability reports in real time.",
-      techStack: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "REST APIs",
-      ],
-      link: "https://startsecure.in",
-      linkDisplay: "startsecure.in",
-      role: "Full-Stack Developer",
-      responsibilities: [
-        "Designed and developed a secure client dashboard from scratch for managing cybersecurity workflows.",
-        "Built onboarding flows enabling clients to submit applications for penetration testing and security audits.",
-        "Implemented real-time status tracking for security assessments, including stages like submission, testing, and reporting.",
-        "Developed structured reporting modules to display vulnerabilities, risk levels, and remediation suggestions.",
-        "Integrated backend APIs for handling client data, test results, and report generation securely.",
-        "Ensured responsive UI/UX with a focus on clarity for complex security data and reports.",
-      ],
-      features: [
-        "Client onboarding system allowing businesses to submit applications for penetration testing and security services.",
-        "Live application status tracking with clear stages (Pending, In Progress, Completed, Report Generated).",
-        "Detailed security reports showcasing vulnerabilities categorized by severity (Critical, High, Medium, Low).",
-        "Actionable remediation insights to help clients fix identified security issues efficiently.",
-        "Centralized dashboard for managing multiple applications and viewing historical reports.",
-        "Secure data handling and authentication to ensure confidentiality of sensitive security findings.",
-      ],
-      impact: [
-        "Enabled Start Secure to provide a transparent and professional client experience for cybersecurity services.",
-        "Reduced manual communication overhead by centralizing application tracking and reporting in one dashboard.",
-        "Improved client trust through clear, structured, and accessible vulnerability reporting.",
-      ],
-    },
+   
  
       {
       title: "ActiveDelights",
@@ -195,6 +157,45 @@ export const getFreelanceProjects = function (): FreelanceProject[] {
       impact: [
         "Helped ZEP position itself as a 'one-stop' AI copilot for job applications, from resume to interview prep.",
         "Improved user success and retention by surfacing clear scores, progress, and targeted recommendations.",
+      ],
+    },
+       {
+      title: "Start Secure",
+      shortDescription: "Cybersecurity & Penetration Testing Dashboard",
+      fullDescription:
+        "Start Secure is a cybersecurity platform offering penetration testing and security assessment services for modern applications. I built a comprehensive client dashboard that allows businesses to seamlessly onboard, track security assessments, and access detailed vulnerability reports in real time.",
+      techStack: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "REST APIs",
+      ],
+      link: "https://startsecure.in",
+      linkDisplay: "startsecure.in",
+      role: "Full-Stack Developer",
+      responsibilities: [
+        "Designed and developed a secure client dashboard from scratch for managing cybersecurity workflows.",
+        "Built onboarding flows enabling clients to submit applications for penetration testing and security audits.",
+        "Implemented real-time status tracking for security assessments, including stages like submission, testing, and reporting.",
+        "Developed structured reporting modules to display vulnerabilities, risk levels, and remediation suggestions.",
+        "Integrated backend APIs for handling client data, test results, and report generation securely.",
+        "Ensured responsive UI/UX with a focus on clarity for complex security data and reports.",
+      ],
+      features: [
+        "Client onboarding system allowing businesses to submit applications for penetration testing and security services.",
+        "Live application status tracking with clear stages (Pending, In Progress, Completed, Report Generated).",
+        "Detailed security reports showcasing vulnerabilities categorized by severity (Critical, High, Medium, Low).",
+        "Actionable remediation insights to help clients fix identified security issues efficiently.",
+        "Centralized dashboard for managing multiple applications and viewing historical reports.",
+        "Secure data handling and authentication to ensure confidentiality of sensitive security findings.",
+      ],
+      impact: [
+        "Enabled Start Secure to provide a transparent and professional client experience for cybersecurity services.",
+        "Reduced manual communication overhead by centralizing application tracking and reporting in one dashboard.",
+        "Improved client trust through clear, structured, and accessible vulnerability reporting.",
       ],
     },
   ];
